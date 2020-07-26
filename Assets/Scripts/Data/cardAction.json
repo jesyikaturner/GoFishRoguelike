@@ -1,0 +1,204 @@
+{
+    "actions": 
+    [
+        {
+            "match": "red",
+            "value": "ACE",
+            "action": ""
+        },
+        {
+            "match": "red",
+            "value": "TWO",
+            "action": ""
+        },
+        {
+            "match": "red",
+            "value": "THREE",
+            "action": ""
+        },
+        {
+            "match": "red",
+            "value": "FOUR",
+            "action": ""
+        },
+        {
+            "match": "red",
+            "value": "FIVE",
+            "action": ""
+        },
+        {
+            "match": "red",
+            "value": "SIX",
+            "action": ""
+        },
+        {
+            "match": "red",
+            "value": "SEVEN",
+            "action": ""
+        },
+        {
+            "match": "red",
+            "value": "EIGHT",
+            "action": ""
+        },
+        {
+            "match": "red",
+            "value": "NINE",
+            "action": ""
+        },
+        {
+            "match": "red",
+            "value": "TEN",
+            "action": ""
+        },
+        {
+            "match": "red",
+            "value": "JACK",
+            "action": ""
+        },
+        {
+            "match": "red",
+            "value": "QUEEN",
+            "action": ""
+        },
+        {
+            "match": "red",
+            "value": "KING",
+            "action": ""
+        },
+        
+
+        {
+            "match": "black",
+            "value": "ACE",
+            "action": ""
+        },
+        {
+            "match": "black",
+            "value": "TWO",
+            "action": ""
+        },
+        {
+            "match": "black",
+            "value": "THREE",
+            "action": ""
+        },
+        {
+            "match": "black",
+            "value": "FOUR",
+            "action": ""
+        },
+        {
+            "match": "black",
+            "value": "FIVE",
+            "action": ""
+        },
+        {
+            "match": "black",
+            "value": "SIX",
+            "action": ""
+        },
+        {
+            "match": "black",
+            "value": "SEVEN",
+            "action": ""
+        },
+        {
+            "match": "black",
+            "value": "EIGHT",
+            "action": ""
+        },
+        {
+            "match": "black",
+            "value": "NINE",
+            "action": ""
+        },
+        {
+            "match": "black",
+            "value": "TEN",
+            "action": ""
+        },
+        {
+            "match": "black",
+            "value": "JACK",
+            "action": ""
+        },
+        {
+            "match": "black",
+            "value": "QUEEN",
+            "action": ""
+        },
+        {
+            "match": "black",
+            "value": "KING",
+            "action": ""
+        },
+
+
+        {
+            "match": "odd",
+            "value": "ACE",
+            "action": ""
+        },
+        {
+            "match": "odd",
+            "value": "TWO",
+            "action": ""
+        },
+        {
+            "match": "odd",
+            "value": "THREE",
+            "action": ""
+        },
+        {
+            "match": "odd",
+            "value": "FOUR",
+            "action": ""
+        },
+        {
+            "match": "odd",
+            "value": "FIVE",
+            "action": ""
+        },
+        {
+            "match": "odd",
+            "value": "SIX",
+            "action": ""
+        },
+        {
+            "match": "odd",
+            "value": "SEVEN",
+            "action": ""
+        },
+        {
+            "match": "odd",
+            "value": "EIGHT",
+            "action": ""
+        },
+        {
+            "match": "odd",
+            "value": "NINE",
+            "action": ""
+        },
+        {
+            "match": "odd",
+            "value": "TEN",
+            "action": ""
+        },
+        {
+            "match": "odd",
+            "value": "JACK",
+            "action": ""
+        },
+        {
+            "match": "odd",
+            "value": "QUEEN",
+            "action": ""
+        },
+        {
+            "match": "odd",
+            "value": "KING",
+            "action": ""
+        }
+    ]
+}

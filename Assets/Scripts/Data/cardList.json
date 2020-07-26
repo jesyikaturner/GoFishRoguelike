@@ -1,0 +1,219 @@
+{
+    "cards":
+    [
+        {
+            "suit": "HEARTS",
+            "value": "ACE"
+        },
+        {
+            "suit": "HEARTS",
+            "value": "TWO"
+        },
+        {
+            "suit": "HEARTS",
+            "value": "THREE"
+        },
+        {
+            "suit": "HEARTS",
+            "value": "FOUR"
+        },
+        {
+            "suit": "HEARTS",
+            "value": "FIVE"
+        },
+        {
+            "suit": "HEARTS",
+            "value": "SIX"
+        },
+        {
+            "suit": "HEARTS",
+            "value": "SEVEN"
+        },
+        {
+            "suit": "HEARTS",
+            "value": "EIGHT"
+        },
+        {
+            "suit": "HEARTS",
+            "value": "NINE"
+        },
+        {
+            "suit": "HEARTS",
+            "value": "TEN"
+        },
+        {
+            "suit": "HEARTS",
+            "value": "JACK"
+        },
+        {
+            "suit": "HEARTS",
+            "value": "QUEEN"
+        },
+        {
+            "suit": "HEARTS",
+            "value": "KING"
+        },
+        
+
+        {
+            "suit": "SPADES",
+            "value": "ACE"
+        },
+        {
+            "suit": "SPADES",
+            "value": "TWO"
+        },
+        {
+            "suit": "SPADES",
+            "value": "THREE"
+        },
+        {
+            "suit": "SPADES",
+            "value": "FOUR"
+        },
+        {
+            "suit": "SPADES",
+            "value": "FIVE"
+        },
+        {
+            "suit": "SPADES",
+            "value": "SIX"
+        },
+        {
+            "suit": "SPADES",
+            "value": "SEVEN"
+        },
+        {
+            "suit": "SPADES",
+            "value": "EIGHT"
+        },
+        {
+            "suit": "SPADES",
+            "value": "NINE"
+        },
+        {
+            "suit": "SPADES",
+            "value": "TEN"
+        },
+        {
+            "suit": "SPADES",
+            "value": "JACK"
+        },
+        {
+            "suit": "SPADES",
+            "value": "QUEEN"
+        },
+        {
+            "suit": "SPADES",
+            "value": "KING"
+        },
+
+
+        {
+            "suit": "CLUBS",
+            "value": "ACE"
+        },
+        {
+            "suit": "CLUBS",
+            "value": "TWO"
+        },
+        {
+            "suit": "CLUBS",
+            "value": "THREE"
+        },
+        {
+            "suit": "CLUBS",
+            "value": "FOUR"
+        },
+        {
+            "suit": "CLUBS",
+            "value": "FIVE"
+        },
+        {
+            "suit": "CLUBS",
+            "value": "SIX"
+        },
+        {
+            "suit": "CLUBS",
+            "value": "SEVEN"
+        },
+        {
+            "suit": "CLUBS",
+            "value": "EIGHT"
+        },
+        {
+            "suit": "CLUBS",
+            "value": "NINE"
+        },
+        {
+            "suit": "CLUBS",
+            "value": "TEN"
+        },
+        {
+            "suit": "CLUBS",
+            "value": "JACK"
+        },
+        {
+            "suit": "CLUBS",
+            "value": "QUEEN"
+        },
+        {
+            "suit": "CLUBS",
+            "value": "KING"
+        },
+
+
+        {
+            "suit": "DIAMONDS",
+            "value": "ACE"
+        },
+        {
+            "suit": "DIAMONDS",
+            "value": "TWO"
+        },
+        {
+            "suit": "DIAMONDS",
+            "value": "THREE"
+        },
+        {
+            "suit": "DIAMONDS",
+            "value": "FOUR"
+        },
+        {
+            "suit": "DIAMONDS",
+            "value": "FIVE"
+        },
+        {
+            "suit": "DIAMONDS",
+            "value": "SIX"
+        },
+        {
+            "suit": "DIAMONDS",
+            "value": "SEVEN"
+        },
+        {
+            "suit": "DIAMONDS",
+            "value": "EIGHT"
+        },
+        {
+            "suit": "DIAMONDS",
+            "value": "NINE"
+        },
+        {
+            "suit": "DIAMONDS",
+            "value": "TEN"
+        },
+        {
+            "suit": "DIAMONDS",
+            "value": "JACK"
+        },
+        {
+            "suit": "DIAMONDS",
+            "value": "QUEEN"
+        },
+        {
+            "suit": "DIAMONDS",
+            "value": "KING"
+        }
+    ]
+}
