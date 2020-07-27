@@ -33,6 +33,5 @@ public class PlayerHand : MonoBehaviour
         }
 
         return "odd";
-
     }
 }

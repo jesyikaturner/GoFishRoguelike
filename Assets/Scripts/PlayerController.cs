@@ -10,8 +10,6 @@ public class PlayerController : MonoBehaviour, IPlayer
     public DeckManager deckManager;
     public PlayerHand playerHand;
 
-    public ControllableActor playerCharacter;
-
     public CardDetails prevSelectedCard, selectedCard;
 
     // Start is called before the first frame update
@@ -70,6 +68,7 @@ public class PlayerController : MonoBehaviour, IPlayer
         }
         else
         {
+            // Add mana to pool
             selectedCard = null;
             prevSelectedCard = null;
         }
