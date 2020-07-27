@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour, IPlayer
 {
@@ -21,43 +20,42 @@ public class PlayerController : MonoBehaviour, IPlayer
     // Update is called once per frame
     void Update()
     {
-        /*
-        if(Input.GetMouseButtonDown(0))
-        {
-            deckManager.DrawCard(playerHand);
-        }
-        */
-    }
-
-    public void SelectCards()
-    {
         RaycastHit hit;
         Ray mouseRay = Camera.main.ScreenPointToRay(Input.mousePosition);
-        CardDetails temp;
 
-        if(Physics.Raycast(mouseRay, out hit))
+        Physics.Raycast(mouseRay, out hit);
+
+        Debug.Log(hit.collider);
+
+        if(Input.GetMouseButtonUp(0))
         {
-            if(hit.collider.gameObject.GetComponent<CardDetails>())
-            {
-                temp = hit.collider.gameObject.GetComponent<CardDetails>();
-
-                if(selectedCard)
-                {
-                    selectedCard = prevSelectedCard;
-                    selectedCard = temp;
-                }
-                else if (temp == selectedCard)
-                {
-                    selectedCard = null;
-                }
-                else if (!selectedCard)
-                {
-                    selectedCard = temp;
-                }
-
-            }
+            SelectCards(hit.collider);
         }
 
+    }
+
+    public void SelectCards(Collider collider)
+    {
+        if (!collider || !collider.gameObject.GetComponent<CardDetails>())
+            return;
+
+        CardDetails temp = collider.gameObject.GetComponent<CardDetails>();
+
+        if (selectedCard)
+        {
+            prevSelectedCard = selectedCard;
+            selectedCard = temp;
+        }
+        else if (temp == selectedCard)
+        {
+            selectedCard = null;
+        }
+        else if (!selectedCard)
+        {
+            selectedCard = temp;
+        }
+
+        /*
         if (!selectedCard || !prevSelectedCard)
             return;
 
@@ -71,6 +69,6 @@ public class PlayerController : MonoBehaviour, IPlayer
             // Add mana to pool
             selectedCard = null;
             prevSelectedCard = null;
-        }
+        }*/
     }
 }
