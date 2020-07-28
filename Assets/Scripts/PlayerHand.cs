@@ -22,16 +22,22 @@ public class PlayerHand : MonoBehaviour
         if (firstCard.value != secondCard.value)
             return null;
 
-        if((firstCard.suit == "HEARTS" || firstCard.suit == "DIAMONDS") && (secondCard.suit == "HEARTS" || secondCard.suit == "DIAMONDS"))
-        {
+        if((firstCard.cardSuit == CardDetails.CardSuit.HEARTS || firstCard.cardSuit == CardDetails.CardSuit.DIAMONDS) && (secondCard.cardSuit == CardDetails.CardSuit.HEARTS || secondCard.cardSuit == CardDetails.CardSuit.DIAMONDS))
             return "red";
-        }
 
-        if ((firstCard.suit == "CLUBS" || firstCard.suit == "SPADES") && (secondCard.suit == "CLUBS" || secondCard.suit == "SPADES"))
-        {
+        if ((firstCard.cardSuit == CardDetails.CardSuit.CLUBS || firstCard.cardSuit == CardDetails.CardSuit.SPADES) && (secondCard.cardSuit == CardDetails.CardSuit.CLUBS || secondCard.cardSuit == CardDetails.CardSuit.SPADES))
             return "black";
-        }
 
         return "odd";
+    }
+
+    public void PickupCard()
+    {
+
+    }
+
+    public void StealCard(IPlayer player, IPlayer target)
+    {
+
     }
 }

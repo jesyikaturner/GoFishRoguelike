@@ -3,217 +3,269 @@
     [
         {
             "suit": "HEARTS",
-            "value": "ACE"
+            "valueName": "ACE",
+            "value": 1
         },
         {
             "suit": "HEARTS",
-            "value": "TWO"
+            "valueName": "TWO",
+            "value": 2
         },
         {
             "suit": "HEARTS",
-            "value": "THREE"
+            "valueName": "THREE",
+            "value": 3
         },
         {
             "suit": "HEARTS",
-            "value": "FOUR"
+            "valueName": "FOUR",
+            "value": 4
         },
         {
             "suit": "HEARTS",
-            "value": "FIVE"
+            "valueName": "FIVE",
+            "value": 5
         },
         {
             "suit": "HEARTS",
-            "value": "SIX"
+            "valueName": "SIX",
+            "value": 6
         },
         {
             "suit": "HEARTS",
-            "value": "SEVEN"
+            "valueName": "SEVEN",
+            "value": 7
         },
         {
             "suit": "HEARTS",
-            "value": "EIGHT"
+            "valueName": "EIGHT",
+            "value": 8
         },
         {
             "suit": "HEARTS",
-            "value": "NINE"
+            "valueName": "NINE",
+            "value": 9
         },
         {
             "suit": "HEARTS",
-            "value": "TEN"
+            "valueName": "TEN",
+            "value": 10
         },
         {
             "suit": "HEARTS",
-            "value": "JACK"
+            "valueName": "JACK",
+            "value": 11
         },
         {
             "suit": "HEARTS",
-            "value": "QUEEN"
+            "valueName": "QUEEN",
+            "value": 12
         },
         {
             "suit": "HEARTS",
-            "value": "KING"
+            "valueName": "KING",
+            "value": 13
         },
         
 
         {
             "suit": "SPADES",
-            "value": "ACE"
+            "valueName": "ACE",
+            "value": 1
         },
         {
             "suit": "SPADES",
-            "value": "TWO"
+            "valueName": "TWO",
+            "value": 2
         },
         {
             "suit": "SPADES",
-            "value": "THREE"
+            "valueName": "THREE",
+            "value": 3
         },
         {
             "suit": "SPADES",
-            "value": "FOUR"
+            "valueName": "FOUR",
+            "value": 4
         },
         {
             "suit": "SPADES",
-            "value": "FIVE"
+            "valueName": "FIVE",
+            "value": 5
         },
         {
             "suit": "SPADES",
-            "value": "SIX"
+            "valueName": "SIX",
+            "value": 6
         },
         {
             "suit": "SPADES",
-            "value": "SEVEN"
+            "valueName": "SEVEN",
+            "value": 7
         },
         {
             "suit": "SPADES",
-            "value": "EIGHT"
+            "valueName": "EIGHT",
+            "value": 8
         },
         {
             "suit": "SPADES",
-            "value": "NINE"
+            "valueName": "NINE",
+            "value": 9
         },
         {
             "suit": "SPADES",
-            "value": "TEN"
+            "valueName": "TEN",
+            "value": 10
         },
         {
             "suit": "SPADES",
-            "value": "JACK"
+            "valueName": "JACK",
+            "value": 11
         },
         {
             "suit": "SPADES",
-            "value": "QUEEN"
+            "valueName": "QUEEN",
+            "value": 12
         },
         {
             "suit": "SPADES",
-            "value": "KING"
+            "valueName": "KING",
+            "value": 13
         },
 
 
         {
             "suit": "CLUBS",
-            "value": "ACE"
+            "valueName": "ONE",
+            "value": 1
         },
         {
             "suit": "CLUBS",
-            "value": "TWO"
+            "valueName": "TWO",
+            "value": 2
         },
         {
             "suit": "CLUBS",
-            "value": "THREE"
+            "valueName": "THREE",
+            "value": 3
         },
         {
             "suit": "CLUBS",
-            "value": "FOUR"
+            "valueName": "FOUR",
+            "value": 4
         },
         {
             "suit": "CLUBS",
-            "value": "FIVE"
+            "valueName": "FIVE",
+            "value": 5
         },
         {
             "suit": "CLUBS",
-            "value": "SIX"
+            "valueName": "SIX",
+            "value": 6
         },
         {
             "suit": "CLUBS",
-            "value": "SEVEN"
+            "valueName": "SEVEN",
+            "value": 7
         },
         {
             "suit": "CLUBS",
-            "value": "EIGHT"
+            "valueName": "EIGHT",
+            "value": 8
         },
         {
             "suit": "CLUBS",
-            "value": "NINE"
+            "valueName": "NINE",
+            "value": 9
         },
         {
             "suit": "CLUBS",
-            "value": "TEN"
+            "valueName": "TEN",
+            "value": 10
         },
         {
             "suit": "CLUBS",
-            "value": "JACK"
+            "valueName": "JACK",
+            "value": 11
         },
         {
             "suit": "CLUBS",
-            "value": "QUEEN"
+            "valueName": "QUEEN",
+            "value": 12
         },
         {
             "suit": "CLUBS",
-            "value": "KING"
+            "valueName": "KING",
+            "value": 13
         },
 
 
         {
             "suit": "DIAMONDS",
-            "value": "ACE"
+            "valueName": "ONE",
+            "value": 1
         },
         {
             "suit": "DIAMONDS",
-            "value": "TWO"
+            "valueName": "TWO",
+            "value": 2
         },
         {
             "suit": "DIAMONDS",
-            "value": "THREE"
+            "valueName": "THREE",
+            "value": 3
         },
         {
             "suit": "DIAMONDS",
-            "value": "FOUR"
+            "valueName": "FOUR",
+            "value": 4
         },
         {
             "suit": "DIAMONDS",
-            "value": "FIVE"
+            "valueName": "FIVE",
+            "value": 5
         },
         {
             "suit": "DIAMONDS",
-            "value": "SIX"
+            "valueName": "SIX",
+            "value": 6
         },
         {
             "suit": "DIAMONDS",
-            "value": "SEVEN"
+            "valueName": "SEVEN",
+            "value": 7
         },
         {
             "suit": "DIAMONDS",
-            "value": "EIGHT"
+            "valueName": "EIGHT",
+            "value": 8
         },
         {
             "suit": "DIAMONDS",
-            "value": "NINE"
+            "valueName": "NINE",
+            "value": 9
         },
         {
             "suit": "DIAMONDS",
-            "value": "TEN"
+            "valueName": "TEN",
+            "value": 10
         },
         {
             "suit": "DIAMONDS",
-            "value": "JACK"
+            "valueName": "JACK",
+            "value": 11
         },
         {
             "suit": "DIAMONDS",
-            "value": "QUEEN"
+            "valueName": "QUEEN",
+            "value": 12
         },
         {
             "suit": "DIAMONDS",
-            "value": "KING"
+            "valueName": "KING",
+            "value": 13
         }
     ]
 }

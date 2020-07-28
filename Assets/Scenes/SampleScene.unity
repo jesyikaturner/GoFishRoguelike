@@ -217,7 +217,7 @@ GameObject:
   - component: {fileID: 1004339023}
   - component: {fileID: 1004339026}
   m_Layer: 0
-  m_Name: 4 of Diamonds
+  m_Name: 4 of Spades
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -235,8 +235,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 101d269953c647c4f97501d687a1e021, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: DIAMONDS
+  cardSuit: 2
+  position: 1
   value: 4
+  valueName: FOUR
+  cardName: 
 --- !u!212 &1004339024
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -391,8 +394,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 101d269953c647c4f97501d687a1e021, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suit: HEARTS
+  cardSuit: 0
+  position: 1
   value: 4
+  valueName: FOUR
+  cardName: 
 --- !u!212 &1786720104
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -502,6 +508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deckManager: {fileID: 1315515973}
   playerHand: {fileID: 1803138368}
+  manaPool: []
   prevSelectedCard: {fileID: 0}
   selectedCard: {fileID: 0}
 --- !u!4 &1803138367

@@ -9,23 +9,22 @@ public class PlayerController : MonoBehaviour, IPlayer
     public DeckManager deckManager;
     public PlayerHand playerHand;
 
+    public List<Mana> manaPool;
+
     public CardDetails prevSelectedCard, selectedCard;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        SetupManaPool();
     }
 
     // Update is called once per frame
     void Update()
     {
-        RaycastHit hit;
         Ray mouseRay = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-        Physics.Raycast(mouseRay, out hit);
-
-        Debug.Log(hit.collider);
+        Physics.Raycast(mouseRay, out RaycastHit hit);
 
         if(Input.GetMouseButtonUp(0))
         {
@@ -41,6 +40,9 @@ public class PlayerController : MonoBehaviour, IPlayer
 
         CardDetails temp = collider.gameObject.GetComponent<CardDetails>();
 
+        if (temp.position != CardDetails.CardPosition.PLAYERHAND)
+            return;
+
         if (selectedCard)
         {
             prevSelectedCard = selectedCard;
@@ -55,20 +57,51 @@ public class PlayerController : MonoBehaviour, IPlayer
             selectedCard = temp;
         }
 
-        /*
-        if (!selectedCard || !prevSelectedCard)
-            return;
-
-        string result = playerHand.CheckMatch(selectedCard, prevSelectedCard);
-        if(result == null)
+        if (selectedCard && prevSelectedCard)
         {
-            Debug.Log("Let player know that the cards don't match");
+            string result = playerHand.CheckMatch(selectedCard, prevSelectedCard);
+            if (result == null)
+            {
+                Debug.Log("Let player know that the cards don't match");
+            }
+            else
+            {
+                AddManaToPool(result, selectedCard.value);
+                selectedCard = null;
+                prevSelectedCard = null;
+            }
         }
-        else
+    }
+
+    private void AddManaToPool(string result, int value)
+    {
+        switch(result)
         {
-            // Add mana to pool
-            selectedCard = null;
-            prevSelectedCard = null;
-        }*/
+            case "red":
+                manaPool[0].value += value;
+                break;
+            case "black":
+                manaPool[1].value += value;
+                break;
+            case "odd":
+                manaPool[2].value += value;
+                break;
+        }
+    }
+
+    private void SetupManaPool()
+    {
+        manaPool = new List<Mana>();
+        manaPool.Add(new Mana { type = Mana.ManaType.RED, value = 0});
+        manaPool.Add(new Mana { type = Mana.ManaType.BLACK, value = 0 });
+        manaPool.Add(new Mana { type = Mana.ManaType.ODD, value = 0 });
+    }
+
+    [System.Serializable]
+    public class Mana
+    {
+        public enum ManaType { RED, BLACK, ODD }
+        public ManaType type;
+        public int value;
     }
 }

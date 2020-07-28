@@ -43,8 +43,7 @@ public class DeckManager : MonoBehaviour
         {
             CardDetails cardClone = Instantiate(cardPrefab, Vector2.zero,Quaternion.identity);
             cardClone.transform.parent = transform;
-            cardClone.name = string.Format("{0} {1}", card.suit, card.value);
-            cardClone.SetupCard(card.suit, card.value);
+            cardClone.SetupCard(card.suit, card.valueName, card.value);
             deck.Add(cardClone);
         }
     }
@@ -61,6 +60,7 @@ public class DeckManager : MonoBehaviour
     private class Card
     {
         public string suit;
-        public string value;
+        public string valueName;
+        public int value;
     }
 }
